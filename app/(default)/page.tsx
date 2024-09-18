@@ -9,16 +9,20 @@ import Workflows from "@/components/workflows";
 import Features from "@/components/features";
 import Testimonials from "@/components/testimonials";
 import Cta from "@/components/cta";
+import Pricing from "@/components/pricing";
 
 export default function Home() {
   return (
-    <>
-      <PageIllustration />
-      <Hero />
-      <Workflows />
-      <Features />
-      <Testimonials />
-      <Cta />
-    </>
+    <div>
+      <main className="pt-16"> {/* Add padding-top to account for fixed navbar */}
+        <PageIllustration />
+        <Hero />
+        <Features />
+        <Workflows />
+        <Pricing />
+        <Testimonials />
+        <Cta />
+      </main>
+    </div>
   );
 }

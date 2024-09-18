@@ -1,39 +1,104 @@
 "use client";
 
+import { useState, useEffect } from 'react';
 import Link from "next/link";
 import Logo from "./logo";
 
-export default function Header() {
-  return (
-    <header className="z-30 mt-2 w-full md:mt-5">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <div className="relative flex h-14 items-center justify-between gap-3 rounded-2xl bg-gray-900/90 px-3 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,theme(colors.gray.800),theme(colors.gray.700),theme(colors.gray.800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] after:absolute after:inset-0 after:-z-10 after:backdrop-blur-sm">
-          {/* Site branding */}
-          <div className="flex flex-1 items-center">
-            <Logo />
-          </div>
+const navItems = [
+  { name: 'Features', href: '#features' },
+  { name: 'Pricing', href: '#pricing' },
+  { name: 'Testimonials', href: '#testimonials' },
+  { name: 'FAQs', href: '#faqs' },
+  { name: 'Community', href: '#community' },
+];
 
-          {/* Desktop sign in links */}
-          <ul className="flex flex-1 items-center justify-end gap-3">
-            <li>
+export default function Header() {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 10);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const headerClasses = `
+    relative flex h-14 items-center justify-between gap-3 rounded-2xl bg-gray-900/90 px-3
+    before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit]
+    before:border before:border-transparent
+    before:[background:linear-gradient(to_right,theme(colors.gray.800),theme(colors.gray.700),theme(colors.gray.800))_border-box]
+    before:[mask-composite:exclude_!important]
+    before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)]
+    after:absolute after:inset-0 after:-z-10 after:backdrop-blur-sm
+  `;
+
+  return (
+    <>
+      <header className="z-30 w-full">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6">
+          <div className={headerClasses}>
+            <div className="flex flex-1 items-center">
+              <Logo />
+            </div>
+            <nav className="hidden md:block">
+              <ul className="flex items-center space-x-4">
+                {navItems.map((item) => (
+                  <li key={item.name}>
+                    <Link
+                      href={item.href}
+                      className="text-sm font-medium text-gray-300 hover:text-white"
+                    >
+                      {item.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+            <div>
               <Link
-                href="/signin"
-                className="btn-sm relative bg-gradient-to-b from-gray-800 to-gray-800/60 bg-[length:100%_100%] bg-[bottom] py-[5px] text-gray-300 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,theme(colors.gray.800),theme(colors.gray.700),theme(colors.gray.800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-[length:100%_150%]"
+                href="#"
+                className="btn-sm bg-indigo-500 hover:bg-indigo-600 text-white"
               >
-                Sign In
+                Try for free
               </Link>
-            </li>
-            <li>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      {/* Floating header */}
+      <div className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'translate-y-0' : '-translate-y-full'}`}>
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 py-2">
+          <div className={headerClasses}>
+            <div className="flex flex-1 items-center">
+              <Logo />
+            </div>
+            <nav className="hidden md:block">
+              <ul className="flex items-center space-x-4">
+                {navItems.map((item) => (
+                  <li key={item.name}>
+                    <Link
+                      href={item.href}
+                      className="text-sm font-medium text-gray-300 hover:text-white"
+                    >
+                      {item.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+            <div>
               <Link
-                href="/signup"
-                className="btn-sm bg-gradient-to-t from-indigo-600 to-indigo-500 bg-[length:100%_100%] bg-[bottom] py-[5px] text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%]"
+                href="#"
+                className="btn-sm bg-indigo-500 hover:bg-indigo-600 text-white"
               >
-                Register
+                Try for free
               </Link>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
       </div>
-    </header>
+    </>
   );
 }
