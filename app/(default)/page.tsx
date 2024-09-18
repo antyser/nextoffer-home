@@ -10,6 +10,7 @@ import Features from "@/components/features";
 import Testimonials from "@/components/testimonials";
 import Cta from "@/components/cta";
 import Pricing from "@/components/pricing";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function Home() {
   return (
