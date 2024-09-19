@@ -72,7 +72,7 @@ export default function Header() {
             </nav>
             <div className="hidden md:block">
               <Link
-                href="#"
+                href="https://app.thenextoffer.com/login"
                 className="btn-sm bg-indigo-500 hover:bg-indigo-600 text-white"
               >
                 Try for free
@@ -122,7 +122,7 @@ export default function Header() {
           </nav>
           <div className="mt-8">
             <Link
-              href="#"
+              href="https://app.thenextoffer.com/login"
               className="btn-sm bg-indigo-500 hover:bg-indigo-600 text-white"
             >
               Try for free
@@ -155,7 +155,7 @@ export default function Header() {
             </nav>
             <div className="hidden md:block">
               <Link
-                href="#"
+                href="https://app.thenextoffer.com/login"
                 className="btn-sm bg-indigo-500 hover:bg-indigo-600 text-white"
               >
                 Try for free

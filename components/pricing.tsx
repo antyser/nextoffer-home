@@ -124,7 +124,7 @@ export default function Pricing() {
                   ))}
                 </ul>
                 <div className="mt-8">
-                  <a className="btn text-white bg-indigo-500 hover:bg-indigo-600 w-full" href="#0">{plan.buttonText}</a>
+                  <a className="btn text-white bg-indigo-500 hover:bg-indigo-600 w-full" href="https://app.thenextoffer.com/login">{plan.buttonText}</a>
                 </div>
               </div>
             ))}
