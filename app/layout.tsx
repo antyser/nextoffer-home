@@ -2,7 +2,7 @@ import "./css/style.css";
 
 import { Inter } from "next/font/google";
 import localFont from "next/font/local";
-import { GoogleTagManager } from '@next/third-parties/google' 
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 import Header from "@/components/ui/header";
 
@@ -51,7 +51,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <GoogleTagManager gtmId="G-21W1VDK274" />
+      <GoogleAnalytics gaId="G-21W1VDK274" />
       <body
         className={`${inter.variable} ${nacelle.variable} bg-gray-950 font-inter text-base text-gray-200 antialiased`}
       >
