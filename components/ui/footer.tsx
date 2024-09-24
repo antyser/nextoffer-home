@@ -44,7 +44,7 @@ export default function Footer() {
             <li>
               <a
                 className="text-indigo-500 transition hover:text-indigo-400"
-                href="#0"
+                href="https://discord.gg/xG3ufjms"
                 aria-label="Discord"
               >
                 <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">

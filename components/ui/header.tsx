@@ -9,7 +9,7 @@ const navItems = [
   { name: 'Pricing', href: '#pricing' },
   { name: 'Testimonials', href: '#testimonials' },
   { name: 'FAQs', href: '#faqs' },
-  { name: 'Community', href: '#community' },
+  { name: 'Community', href: 'https://discord.gg/xG3ufjms', external: true },
 ];
 
 export default function Header() {
@@ -34,7 +34,10 @@ export default function Header() {
     after:absolute after:inset-0 after:-z-10 after:backdrop-blur-sm
   `;
 
-  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string, external?: boolean) => {
+    if (external) {
+      return; // Allow default behavior for external links
+    }
     e.preventDefault();
     const target = document.querySelector(href);
     if (target) {
@@ -61,8 +64,10 @@ export default function Header() {
                   <li key={item.name}>
                     <a
                       href={item.href}
-                      onClick={(e) => handleNavClick(e, item.href)}
+                      onClick={(e) => handleNavClick(e, item.href, item.external)}
                       className="text-sm font-medium text-gray-300 hover:text-white"
+                      target={item.external ? "_blank" : undefined}
+                      rel={item.external ? "noopener noreferrer" : undefined}
                     >
                       {item.name}
                     </a>
@@ -111,8 +116,10 @@ export default function Header() {
                 <li key={item.name}>
                   <a
                     href={item.href}
-                    onClick={(e) => handleNavClick(e, item.href)}
+                    onClick={(e) => handleNavClick(e, item.href, item.external)}
                     className="text-lg font-medium text-white hover:text-indigo-400"
+                    target={item.external ? "_blank" : undefined}
+                    rel={item.external ? "noopener noreferrer" : undefined}
                   >
                     {item.name}
                   </a>
@@ -144,8 +151,10 @@ export default function Header() {
                   <li key={item.name}>
                     <a
                       href={item.href}
-                      onClick={(e) => handleNavClick(e, item.href)}
+                      onClick={(e) => handleNavClick(e, item.href, item.external)}
                       className="text-sm font-medium text-gray-300 hover:text-white"
+                      target={item.external ? "_blank" : undefined}
+                      rel={item.external ? "noopener noreferrer" : undefined}
                     >
                       {item.name}
                     </a>
