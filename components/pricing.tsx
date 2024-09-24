@@ -10,8 +10,7 @@ const pricingPlans = [
     name: 'FREE',
     price: { monthly: 0, yearly: 0 },
     features: [
-      '5-min Copilot Sessions',
-      'Coding Copilot',
+      '3 x 15-min Copilot Sessions',
     ],
     includedFeatures: 1,
     buttonText: 'Try for free',
@@ -21,7 +20,6 @@ const pricingPlans = [
     price: { monthly: 88, yearly: 24 },
     features: [
       'Unlimited Copilot Sessions',
-      'Coding Copilot',
     ],
     includedFeatures: 7,
     buttonText: 'Get the plan',
@@ -124,7 +122,7 @@ export default function Pricing() {
                   ))}
                 </ul>
                 <div className="mt-8">
-                  <a className="btn text-white bg-indigo-500 hover:bg-indigo-600 w-full" href="https://app.thenextoffer.com/login">{plan.buttonText}</a>
+                  <a className="btn text-white bg-indigo-500 hover:bg-indigo-600 w-full" href="https://app.theNextoffer.com/login">{plan.buttonText}</a>
                 </div>
               </div>
             ))}

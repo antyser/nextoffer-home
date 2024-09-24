@@ -12,8 +12,8 @@ export default function Footer() {
           
           {/* Contact email */}
           <div className="mb-4 text-sm text-indigo-200/65 md:mb-0">
-            <a href="mailto:hi@thenextoffer.com" className="hover:text-indigo-500">
-              hi@thenextoffer.com
+            <a href="mailto:hi@theNextoffer.com" className="hover:text-indigo-500">
+              hi@theNextoffer.com
             </a>
           </div>
           

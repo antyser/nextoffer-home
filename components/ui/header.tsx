@@ -77,13 +77,13 @@ export default function Header() {
             </nav>
             <div className="hidden md:block">
               <Link
-                href="https://app.thenextoffer.com/login"
+                href="https://app.theNextoffer.com/login"
                 className="btn-sm bg-indigo-500 hover:bg-indigo-600 text-white"
               >
                 Try for free
               </Link>
               <Link
-                href="https://cal.com/jun-nextoffer/mock-interview"
+                href="https://cal.com/jun-Nextoffer/mock-interview"
                 className="btn-sm bg-green-500 hover:bg-green-600 text-white ml-4"
               >
                 Schedule mock interview
@@ -135,7 +135,7 @@ export default function Header() {
           </nav>
           <div className="mt-8">
             <Link
-              href="https://app.thenextoffer.com/login"
+              href="https://app.theNextoffer.com/login"
               className="btn-sm bg-indigo-500 hover:bg-indigo-600 text-white"
             >
               Try for free
@@ -170,13 +170,13 @@ export default function Header() {
             </nav>
             <div className="hidden md:block">
               <Link
-                href="https://app.thenextoffer.com/login"
+                href="https://app.theNextoffer.com/login"
                 className="btn-sm bg-indigo-500 hover:bg-indigo-600 text-white"
               >
                 Try for free
               </Link>
               <Link
-                href="https://cal.com/jun-nextoffer/mock-interview"
+                href="https://cal.com/jun-Nextoffer/mock-interview"
                 className="btn-sm bg-green-500 hover:bg-green-600 text-white ml-4"
               >
                 Schedule mock interview

@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "NextOffer: AI Interview Assistant",
-  description: "NextOffer is an AI-powered interview assistant designed to help you prepare for and ace your interviews.",
+  title: "Nextoffer: AI Interview Assistant",
+  description: "Nextoffer is an AI-powered interview assistant designed to help you prepare for and ace your interviews.",
 };
 
 import PageIllustration from "@/components/page-illustration";

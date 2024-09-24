@@ -21,13 +21,13 @@ export default function HeroHome() {
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
-                NextOffer provides real-time assistance, AI-driven mock interviews, and personalized feedback to help you secure your next offer.
+                Nextoffer provides real-time assistance, AI-driven mock interviews, and personalized feedback to help you secure your next offer.
               </p>
               <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
                 <div data-aos="fade-up" data-aos-delay={400}>
                   <a
                     className="btn group mb-4 w-full bg-gradient-to-t from-indigo-600 to-indigo-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
-                    href="https://app.thenextoffer.com/login"
+                    href="https://app.theNextoffer.com/login"
                   >
                     <span className="relative inline-flex items-center">
                       Try for free

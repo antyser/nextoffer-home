@@ -5,26 +5,26 @@ import { useState } from 'react';
 const faqItems = [
     {
       question: "What do the free trials include?",
-      answer: "Our free trials include 3 separate 15-minute interview sessions. Each session gives you full access to all NextOffer features, allowing you to experience our service in real-world scenarios."
+      answer: "Our free trials include 3 separate 15-minute interview sessions. Each session gives you full access to all Nextoffer features, allowing you to experience our service in real-world scenarios."
     },
     {
-      question: "What industries does NextOffer support?",
-      answer: "NextOffer supports a wide range of industries including technology, finance, healthcare, education, and more. Our AI is adaptable to various domains and can be customized to your specific needs."
+      question: "What industries does Nextoffer support?",
+      answer: "Nextoffer supports a wide range of industries including technology, finance, healthcare, education, and more. Our AI is adaptable to various domains and can be customized to your specific needs."
     },
     {
-      question: "Which online meeting platforms are compatible with NextOffer?",
-      answer: "NextOffer seamlessly integrates with popular platforms such as Zoom, Google Meet, Microsoft Teams, and Webex, ensuring support across various meeting environments."
+      question: "Which online meeting platforms are compatible with Nextoffer?",
+      answer: "Nextoffer seamlessly integrates with popular platforms such as Zoom, Google Meet, Microsoft Teams, and Webex, ensuring support across various meeting environments."
     },
     {
-      question: "Is NextOffer detectable during interviews?",
-      answer: "NextOffer is designed to be discreet. However, we strongly encourage ethical use and transparency with interviewers about any aids being used during the interview process."
+      question: "Is Nextoffer detectable during interviews?",
+      answer: "Nextoffer is designed to be discreet. However, we strongly encourage ethical use and transparency with interviewers about any aids being used during the interview process."
     },
     {
-      question: "What distinguishes NextOffer from other similar tools?",
-      answer: "NextOffer stands out with its advanced AI, trained by domain experts who actively update our interview database. This ensures our responses are current and industry-specific. Additionally, we offer 3 free 15-minute trials, allowing users to experience these benefits firsthand."
+      question: "What distinguishes Nextoffer from other similar tools?",
+      answer: "Nextoffer stands out with its advanced AI, trained by domain experts who actively update our interview database. This ensures our responses are current and industry-specific. Additionally, we offer 3 free 15-minute trials, allowing users to experience these benefits firsthand."
     },
     {
-      question: "What is NextOffer's cancellation policy?",
+      question: "What is Nextoffer's cancellation policy?",
       answer: "We don't offer refunds for cancellations. Once you subscribe, you have the flexibility to cancel at any time. Your access will remain active until the end of your current billing period."
     },
   ];

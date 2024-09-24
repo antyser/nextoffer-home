@@ -5,7 +5,7 @@ const testimonials = [
     name: "Emily T.",
     position: "Software Engineer",
     company: "Microsoft",
-    content: "NextOffer was a key factor in helping me secure my position at Microsoft. The real-time assistance kept me focused during the interview, and the tailored feedback helped me improve where it mattered most. I couldn't have done it without this tool!",
+    content: "Nextoffer was a key factor in helping me secure my position at Microsoft. The real-time assistance kept me focused during the interview, and the tailored feedback helped me improve where it mattered most. I couldn't have done it without this tool!",
   },
   {
     name: "Jason R.",
@@ -17,7 +17,7 @@ const testimonials = [
     name: "Sophie K.",
     position: "Solutions Architect",
     company: "Amazon",
-    content: "I struggled with system design interviews, but NextOffer's real-time prompts and detailed feedback helped me bridge the gap. It gave me the confidence to succeed in my Amazon interview and ultimately land the job!",
+    content: "I struggled with system design interviews, but Nextoffer's real-time prompts and detailed feedback helped me bridge the gap. It gave me the confidence to succeed in my Amazon interview and ultimately land the job!",
   },
 ];
 
@@ -32,7 +32,7 @@ export default function Testimonials() {
               Don't take our word for it
             </h2>
             <p className="text-lg text-indigo-200/65">
-              NextOffer empowers candidates to ace technical interviews, providing AI-driven solutions that boost confidence, enhance performance, and help land your dream job.
+              Nextoffer empowers candidates to ace technical interviews, providing AI-driven solutions that boost confidence, enhance performance, and help land your dream job.
             </p>
           </div>
           {/* Testimonials */}

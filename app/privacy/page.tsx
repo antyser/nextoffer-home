@@ -3,8 +3,8 @@ import Header from '@/components/ui/header';
 import Footer from '@/components/ui/footer';
 
 export const metadata = {
-  title: 'Privacy Policy - NextOffer',
-  description: 'Privacy Policy for NextOffer Interview Assistant',
+  title: 'Privacy Policy - Nextoffer',
+  description: 'Privacy Policy for Nextoffer Interview Assistant',
 };
 
 export default function PrivacyPolicy() {
@@ -12,13 +12,13 @@ export default function PrivacyPolicy() {
     <>
       <main className="flex-grow">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 py-16 md:py-24">
-          <h1 className="text-4xl font-bold mb-8 text-gray-100">NextOffer Privacy Policy</h1>
+          <h1 className="text-4xl font-bold mb-8 text-gray-100">Nextoffer Privacy Policy</h1>
           
           <div className="space-y-6 text-indigo-200/65">
             <p>Last updated: September 1, 2024</p>
 
             <p>
-              This Privacy Policy ("Privacy Policy") explains how NextOffer ("we", "us", "our") collects, uses, shares, and protects user ("you", "your") Personal Information when you visit and interact with our website, services, and software (collectively, "Services"). "Personal Information" means information that identifies, relates to, describes, is reasonably capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer or household.
+              This Privacy Policy ("Privacy Policy") explains how Nextoffer ("we", "us", "our") collects, uses, shares, and protects user ("you", "your") Personal Information when you visit and interact with our website, services, and software (collectively, "Services"). "Personal Information" means information that identifies, relates to, describes, is reasonably capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer or household.
             </p>
 
             <p>
@@ -69,19 +69,19 @@ export default function PrivacyPolicy() {
             <p>We may disclose and/or transfer Personal Information as part of any actual or contemplated merger, sale, transfer of assets, acquisition, financing and/or restructuring of all or part of our business, bankruptcy or similar event, including related to due diligence conducted prior to such event where permitted by law.</p>
 
             <h2 className="text-2xl font-semibold text-gray-200 mt-8">4. Cookies</h2>
-            <p>Cookies can be used to recognize you when you visit NextOffer, remember your preferences, and give you a personalized experience that's in line with your settings. Cookies also make your interactions with NextOffer faster and more secure. Additionally, cookies allow us to bring you advertising both on and off the NextOffer sites, and bring customized features to you through NextOffer plugins such as our "Share" button.</p>
+            <p>Cookies can be used to recognize you when you visit Nextoffer, remember your preferences, and give you a personalized experience that's in line with your settings. Cookies also make your interactions with Nextoffer faster and more secure. Additionally, cookies allow us to bring you advertising both on and off the Nextoffer sites, and bring customized features to you through Nextoffer plugins such as our "Share" button.</p>
 
             <h3 className="text-xl font-semibold text-gray-200 mt-6">a. Authentication</h3>
-            <p>If you're signed in to NextOffer, cookies help us show you the right information and personalize your experience.</p>
+            <p>If you're signed in to Nextoffer, cookies help us show you the right information and personalize your experience.</p>
 
             <h3 className="text-xl font-semibold text-gray-200 mt-6">b. Security</h3>
             <p>We use cookies to enable and support our security features, and to help us detect malicious activity and violations of our User Agreement.</p>
 
             <h3 className="text-xl font-semibold text-gray-200 mt-6">c. Preferences, features and services</h3>
-            <p>Cookies can tell us which language you prefer and what your communications preferences are. They can help you fill out forms on NextOffer more easily. They also provide you with features, insights, and customized content in conjunction with our plugins. You can learn more about plugins in our Privacy Policy.</p>
+            <p>Cookies can tell us which language you prefer and what your communications preferences are. They can help you fill out forms on Nextoffer more easily. They also provide you with features, insights, and customized content in conjunction with our plugins. You can learn more about plugins in our Privacy Policy.</p>
 
             <h3 className="text-xl font-semibold text-gray-200 mt-6">d. Advertising</h3>
-            <p>We may use cookies to show you relevant advertising both on and off the NextOffer site. We may also use a cookie to learn whether someone who saw an ad later visited and took an action (e.g., downloaded a white paper or made a purchase) on the advertiser's site. Similarly, our partners may use a cookie to determine whether we've shown an ad and how it performed, or provide us with information about how you interact with ads. We may also work with a partner to show you an ad on or off NextOffer, such as after you've visited a partner's site or application. We use cookies or similar technologies on our Services for a variety of purposes, including to ensure that the Service functions work, as well as for analytics and advertising.</p>
+            <p>We may use cookies to show you relevant advertising both on and off the Nextoffer site. We may also use a cookie to learn whether someone who saw an ad later visited and took an action (e.g., downloaded a white paper or made a purchase) on the advertiser's site. Similarly, our partners may use a cookie to determine whether we've shown an ad and how it performed, or provide us with information about how you interact with ads. We may also work with a partner to show you an ad on or off Nextoffer, such as after you've visited a partner's site or application. We use cookies or similar technologies on our Services for a variety of purposes, including to ensure that the Service functions work, as well as for analytics and advertising.</p>
 
             <h2 className="text-2xl font-semibold text-gray-200 mt-8">5. Security of Data</h2>
             <p>The security of your data is important to us but remember that no method of transmission over the Internet or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Information, we cannot guarantee its absolute security. We also have procedures to deal with any suspected Personal Information breach, and we will notify you and any applicable regulator when we are legally required to do so.</p>
@@ -102,7 +102,7 @@ export default function PrivacyPolicy() {
             <p>We may change this Privacy Policy from time to time. If we make changes, we will notify you by revising the date at the top of the policy and, in some cases, we may provide you with additional notice.</p>
 
             <h2 className="text-2xl font-semibold text-gray-200 mt-8">11. Contacting us</h2>
-            <p>If you have any questions about this Privacy Policy, please contact us at: hi@nextoffer.com</p>
+            <p>If you have any questions about this Privacy Policy, please contact us at: hi@Nextoffer.com</p>
           </div>
         </div>
       </main>

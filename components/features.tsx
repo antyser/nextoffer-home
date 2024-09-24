@@ -26,7 +26,7 @@ const features = [
   },
   {
     title: "Undetectable Assistance",
-    description: "Seamless and discreet, NextOffer runs in the background without being noticed by interviewers, so you can focus confidently.",
+    description: "Seamless and discreet, Nextoffer runs in the background without being noticed by interviewers, so you can focus confidently.",
     icon: (
       <svg className="mb-3 fill-indigo-500" xmlns="http://www.w3.org/2000/svg" width={24} height={24}>
         <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 22c-5.514 0-10-4.486-10-10S6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z" />
@@ -91,7 +91,7 @@ export default function Features() {
               Built for mastering technical interviews
             </h2>
             <p className="text-lg text-indigo-200/65">
-              NextOffer actively updates its database with the latest interview questions and rubrics from top companies, ensuring you're always prepared.
+              Nextoffer actively updates its database with the latest interview questions and rubrics from top companies, ensuring you're always prepared.
             </p>
           </div>
           {/* Items */}
