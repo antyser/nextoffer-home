@@ -22,9 +22,9 @@ export default function Footer() {
             <p className="mb-2">
               © {new Date().getFullYear()} Next Offer
               <span className="mx-2">·</span>
-              <a href="#0" className="hover:text-indigo-500">Terms</a>
+              <a href="/terms-of-service" className="hover:text-indigo-500">Terms of Service</a>
               <span className="mx-2">·</span>
-              <a href="#0" className="hover:text-indigo-500">Privacy Policy</a>
+              <a href="/privacy" className="hover:text-indigo-500">Privacy Policy</a>
             </p>
           </div>
           
