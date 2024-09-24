@@ -82,6 +82,12 @@ export default function Header() {
               >
                 Try for free
               </Link>
+              <Link
+                href="https://cal.com/jun-nextoffer/mock-interview"
+                className="btn-sm bg-green-500 hover:bg-green-600 text-white ml-4"
+              >
+                Schedule mock interview
+              </Link>
             </div>
             <button
               className="md:hidden text-white"
@@ -168,6 +174,12 @@ export default function Header() {
                 className="btn-sm bg-indigo-500 hover:bg-indigo-600 text-white"
               >
                 Try for free
+              </Link>
+              <Link
+                href="https://cal.com/jun-nextoffer/mock-interview"
+                className="btn-sm bg-green-500 hover:bg-green-600 text-white ml-4"
+              >
+                Schedule mock interview
               </Link>
             </div>
             <button
