@@ -9,19 +9,24 @@ const pricingPlans = [
   {
     name: 'FREE',
     price: { monthly: 0, yearly: 0 },
+    description: 'Perfect for those just getting started with interviews or exploring AI-assisted preparation.',
     features: [
-      '3 x 15-min Copilot Sessions',
+      '3 x 15-min Interview Sessions for Mock Interviews or Real-Time Interviews',
+      'Interview Feedback',
     ],
-    includedFeatures: 1,
     buttonText: 'Try for free',
   },
   {
     name: 'PRO',
     price: { monthly: 88, yearly: 24 },
+    description: 'Unlimited support to enhance your interview skills with advanced AI-driven tools.',
     features: [
-      'Unlimited Copilot Sessions',
+      'Unlimited 60-min Interview Sessions for Mock Interviews or Real-Time Interviews',
+      'Advanced Interview Feedback with detailed performance insights',
+      'Full Access to Coding Copilot for technical interviews',
+      'Personalized AI Assistant to tackle behavioral and experience-based interviews',
+      'Priority Customer Support for faster assistance',
     ],
-    includedFeatures: 7,
     buttonText: 'Get the plan',
   },
 ];
