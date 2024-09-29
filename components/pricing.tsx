@@ -110,10 +110,12 @@ export default function Pricing() {
                   <div className="inline-flex items-baseline mb-2">
                     <span className="text-3xl font-bold text-gray-200">$</span>
                     <span className="text-4xl font-bold text-gray-200">{isYearly ? plan.price.yearly : plan.price.monthly}</span>
-                    <span className="text-gray-400 ml-2">
-                      /month
-                      {isYearly && <span className="text-sm ml-1">billed annually</span>}
-                    </span>
+                    {plan.price.monthly !== 0 && (
+                      <span className="text-gray-400 ml-2">
+                        /month
+                        {isYearly && <span className="text-sm ml-1">billed annually</span>}
+                      </span>
+                    )}
                   </div>
                 </div>
                 <ul className="text-gray-400 -mb-2 grow">
