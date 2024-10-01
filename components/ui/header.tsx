@@ -77,7 +77,7 @@ export default function Header() {
             </nav>
             <div className="hidden md:block">
               <Link
-                href="https://app.theNextoffer.com/login"
+                href="https://app.nextoffer.ai/login"
                 className="btn-sm bg-indigo-500 hover:bg-indigo-600 text-white"
               >
                 Try for free
@@ -135,7 +135,7 @@ export default function Header() {
           </nav>
           <div className="mt-8">
             <Link
-              href="https://app.theNextoffer.com/login"
+              href="https://app.nextoffer.ai/login"
               className="btn-sm bg-indigo-500 hover:bg-indigo-600 text-white"
             >
               Try for free
@@ -170,7 +170,7 @@ export default function Header() {
             </nav>
             <div className="hidden md:block">
               <Link
-                href="https://app.theNextoffer.com/login"
+                href="https://app.nextoffer.ai/login"
                 className="btn-sm bg-indigo-500 hover:bg-indigo-600 text-white"
               >
                 Try for free
