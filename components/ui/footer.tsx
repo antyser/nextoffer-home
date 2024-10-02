@@ -12,8 +12,8 @@ export default function Footer() {
           
           {/* Contact email */}
           <div className="mb-4 text-sm text-indigo-200/65 md:mb-0">
-            <a href="mailto:hi@theNextoffer.com" className="hover:text-indigo-500">
-              hi@theNextoffer.com
+            <a href="mailto:hi@nextoffer.ai" className="hover:text-indigo-500">
+              hi@nextoffer.ai
             </a>
           </div>
           
@@ -44,7 +44,7 @@ export default function Footer() {
             <li>
               <a
                 className="text-indigo-500 transition hover:text-indigo-400"
-                href="https://discord.gg/xG3ufjms"
+                href="https://discord.gg/FvvD3WmGgE"
                 aria-label="Discord"
               >
                 <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">

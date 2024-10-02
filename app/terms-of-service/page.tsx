@@ -27,7 +27,7 @@ export default function TermsOfService() {
 
             <h2 className="text-2xl font-semibold text-gray-200 mt-8">2. Privacy</h2>
             <p>
-              How we collect, use, and disclose information, including personal information, that you provide to us via the Services is described in our Privacy Policy found at: https://www.theNextoffer.com/privacy
+              How we collect, use, and disclose information, including personal information, that you provide to us via the Services is described in our Privacy Policy found at: https://www.nextoffer.ai/privacy
             </p>
 
             <h2 className="text-2xl font-semibold text-gray-200 mt-8">3. User Account Registration</h2>
@@ -86,7 +86,7 @@ export default function TermsOfService() {
 
             <h3 className="text-xl font-semibold text-gray-300 mt-6">b. Notice of Dispute</h3>
             <p>
-            If you have a potential legal dispute, claim or cause of action against us, you must first (prior to initiating any proceedings) contact us by sending an email to hi@theNextoffer.com describing the nature of the potential dispute, claim or cause of action and providing all relevant documentation and evidence thereof. If we elect to do so, you agree to use commercially reasonable efforts to negotiate a settlement of any such legal dispute, claim or cause of action within 60 days of the delivery of such email. Any such dispute, claim or cause of action that is not finally resolved by a binding, written settlement agreement within such 60 days shall be brought and resolved exclusively in accordance with the following provisions of this Section 11.
+            If you have a potential legal dispute, claim or cause of action against us, you must first (prior to initiating any proceedings) contact us by sending an email to hi@nextoffer.ai describing the nature of the potential dispute, claim or cause of action and providing all relevant documentation and evidence thereof. If we elect to do so, you agree to use commercially reasonable efforts to negotiate a settlement of any such legal dispute, claim or cause of action within 60 days of the delivery of such email. Any such dispute, claim or cause of action that is not finally resolved by a binding, written settlement agreement within such 60 days shall be brought and resolved exclusively in accordance with the following provisions of this Section 11.
             </p>
 
             <h3 className="text-xl font-semibold text-gray-300 mt-6">c. Mandatory Binding Arbitration</h3>
@@ -146,7 +146,7 @@ export default function TermsOfService() {
 
             <h2 className="text-2xl font-semibold text-gray-200 mt-8">17. Contact Information</h2>
             <p>
-              If you have any questions about these Terms, please contact us at 3101 Park Blvd, Palo Alto, CA 94306 or hi@theNextoffer.com
+              If you have any questions about these Terms, please contact us at 3101 Park Blvd, Palo Alto, CA 94306 or hi@nextoffer.ai
             </p>
           </div>
         </div>
