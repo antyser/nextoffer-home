@@ -9,7 +9,7 @@ const navItems = [
   { name: 'Pricing', href: '#pricing' },
   { name: 'Testimonials', href: '#testimonials' },
   { name: 'FAQs', href: '#faqs' },
-  { name: 'Community', href: 'https://discord.gg/xG3ufjms', external: true },
+  { name: 'Community', href: 'https://discord.gg/FvvD3WmGgE', external: true },
 ];
 
 export default function Header() {
