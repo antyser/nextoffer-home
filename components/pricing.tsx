@@ -18,7 +18,7 @@ const pricingPlans = [
   },
   {
     name: 'PRO',
-    price: { monthly: 88, yearly: 24 },
+    price: { monthly: 29, yearly: 24 },
     description: 'Unlimited support to enhance your interview skills with advanced AI-driven tools.',
     features: [
       'Unlimited 60-min Interview Sessions for Mock Interviews or Real-Time Interviews',
